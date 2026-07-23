@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: rxdx-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: RXDX_ALLOW_ORIGINS
+        value: "*"

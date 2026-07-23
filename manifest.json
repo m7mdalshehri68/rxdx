@@ -1,0 +1,12 @@
+{
+  "name": "RxDx — Clinical Reference",
+  "short_name": "RxDx",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0D6E6E",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

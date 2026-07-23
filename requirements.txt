@@ -1,0 +1,7 @@
+fastapi
+uvicorn[standard]
+
+# Optional — only needed if you enable the /ner endpoint (disease detection).
+# Portable across any host (no macOS/mlx needed):
+# transformers
+# torch
